@@ -1,6 +1,6 @@
 Feature: Products Test
 
-  Scenario: Should choose product to basket
+  Scenario: Should add product to basket
     Given User open T-Mobile home page
     When User choose devices option and click smartwatches and bands without subscription
     And User choose product from list with index: 1
