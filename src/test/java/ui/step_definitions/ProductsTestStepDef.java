@@ -28,7 +28,7 @@ public class ProductsTestStepDef {
     private Product productOnDetailsPage;
     private int numberOfProductInBasket;
     private final SoftAssertions s = new SoftAssertions();
-    protected WebDriver driver;
+    private WebDriver driver;
 
     @Before
     public void setupDriver() {
