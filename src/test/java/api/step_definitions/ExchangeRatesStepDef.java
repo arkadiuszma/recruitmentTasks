@@ -1,11 +1,11 @@
-package api.tests;
+package api.step_definitions;
 
 import api.base.BaseAPITest;
 import io.restassured.response.Response;
 import logging.Log;
 import lombok.SneakyThrows;
-import models.api.ExchangeRates;
-import models.api.Rate;
+import api.models.ExchangeRates;
+import api.models.Rate;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
@@ -15,7 +15,7 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class ExchangeRatesTest extends BaseAPITest {
+public class ExchangeRatesStepDef extends BaseAPITest {
     private static final String EXCHANGE_RATES_TABLE_A = "exchangerates/tables/A";
     private static List<Rate> ratesList;
     private Rate rate;

@@ -1,4 +1,4 @@
-package pages.base;
+package ui.pages.base;
 
 import logging.Log;
 import lombok.Getter;
@@ -6,8 +6,8 @@ import lombok.SneakyThrows;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import pages.home.HomePage;
-import pages.product.ProductListPage;
+import ui.pages.home.HomePage;
+import ui.pages.product.ProductListPage;
 
 import java.util.List;
 

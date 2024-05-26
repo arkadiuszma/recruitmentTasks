@@ -1,12 +1,12 @@
-package pages.basket;
+package ui.pages.basket;
 
 import logging.Log;
-import models.ui.Product;
+import ui.models.Product;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import pages.base.BasePage;
-import pages.product.ProductDetailsPage;
+import ui.pages.base.BasePage;
+import ui.pages.product.ProductDetailsPage;
 
 public class BasketPage extends BasePage {
     public BasketPage(WebDriver driver) {

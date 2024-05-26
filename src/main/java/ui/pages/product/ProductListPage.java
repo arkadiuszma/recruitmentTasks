@@ -1,11 +1,11 @@
-package pages.product;
+package ui.pages.product;
 
 import logging.Log;
-import models.ui.Product;
+import ui.models.Product;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import pages.base.NavigationAbstractPage;
+import ui.pages.base.NavigationAbstractPage;
 
 import java.util.List;
 

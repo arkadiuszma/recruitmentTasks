@@ -1,4 +1,4 @@
-package pages.base;
+package ui.pages.base;
 
 import config.ConfigProperties;
 import logging.Log;

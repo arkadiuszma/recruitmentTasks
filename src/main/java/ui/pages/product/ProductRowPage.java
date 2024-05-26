@@ -1,10 +1,10 @@
-package pages.product;
+package ui.pages.product;
 
-import models.ui.Product;
+import ui.models.Product;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import pages.base.BasePage;
+import ui.pages.base.BasePage;
 
 public class ProductRowPage extends BasePage {
 

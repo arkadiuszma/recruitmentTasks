@@ -1,11 +1,11 @@
-package pages.home;
+package ui.pages.home;
 
 import logging.Log;
 import lombok.SneakyThrows;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import pages.base.NavigationAbstractPage;
+import ui.pages.base.NavigationAbstractPage;
 
 public class HomePage extends NavigationAbstractPage<HomePage> {
     public HomePage(WebDriver driver) {
