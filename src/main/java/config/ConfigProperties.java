@@ -10,6 +10,7 @@ public class ConfigProperties {
     public static String baseUIUrl = config.getString("baseUIUrl");
     public static String browser = config.getString("browser");
     public static Long timeout = config.getLong("timeout");
+    public static Long loadPageTimeout = config.getLong("loadPageTimeout");
 
     //API
     public static String baseAPIUrl = config.getString("baseAPIUrl");

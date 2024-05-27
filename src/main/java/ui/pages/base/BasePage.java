@@ -58,19 +58,11 @@ public abstract class BasePage {
     }
 
     protected void setPageLoadTimeout() {
-        setPageLoadTimeout(ConfigProperties.timeout);
-    }
-
-    protected void setPageLoadTimeout(Long timeout) {
-        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(timeout));
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(ConfigProperties.loadPageTimeout));
     }
 
     protected void clickElement(WebElement element) {
-        clickElement(element, ConfigProperties.timeout);
-    }
-
-    protected void clickElement(WebElement element, long timeout) {
-        new WebDriverWait(driver, Duration.ofSeconds(timeout)).until(ExpectedConditions.elementToBeClickable(element));
+        wait.until(ExpectedConditions.elementToBeClickable(element));
         element.click();
     }
 
